@@ -1,5 +1,45 @@
-/* Welcome to Compass. Use this file to write IE specific override styles.
- * Import this file using the following HTML or equivalent:
- * <!--[if IE]>
- *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
- * <![endif]--> */
+@import "compass/reset"
+body
+  #wrapper
+    width: 910px
+    margin: -272px auto 0px auto
+    height: 543px
+    position: relative
+    top: 50%
+
+    img
+      width: 363px
+      float: left
+    
+    article
+      margin-top: 160px
+      width: 547px
+      height: 400px
+      float: left
+      text-align: center
+
+      h1, h2, p, a
+        font-family: "Courier New", Courier, monospace
+        color: #31312d
+
+      h1
+        font-size: 35px
+        margin-bottom: 8px
+
+      h2
+        font-size: 30px
+        color: #d0d0c8
+        margin: 50px 0
+
+      p
+        font-size: 16px
+
+      a
+        font-size: 18px
+        text-transform: uppercase
+        text-decoration: none
+        border-bottom: #31312d solid 1px
+        padding-bottom: 0px
+        
+        &:hover
+          border-bottom: none
