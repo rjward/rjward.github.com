@@ -80,7 +80,7 @@ body table #wrapper img {
   float: left;
 }
 /* line 16, ../sass/ie.sass */
-body table #wrapper article {
+body table #wrapper .content {
   margin-top: 160px;
   width: 547px;
   height: 400px;

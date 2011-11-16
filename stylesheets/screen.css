@@ -80,7 +80,7 @@ body table #wrapper img {
   float: left;
 }
 /* line 16, ../sass/screen.sass */
-body table #wrapper article {
+body table #wrapper .content {
   margin-top: 160px;
   width: 547px;
   height: 400px;
@@ -88,27 +88,27 @@ body table #wrapper article {
   text-align: center;
 }
 /* line 23, ../sass/screen.sass */
-body table #wrapper article h1, body table #wrapper article h2, body table #wrapper article p, body table #wrapper article a {
+body table #wrapper h1, body table #wrapper h2, body table #wrapper p, body table #wrapper a {
   font-family: "Courier New", Courier, monospace;
   color: #31312d;
 }
 /* line 27, ../sass/screen.sass */
-body table #wrapper article h1 {
+body table #wrapper h1 {
   font-size: 35px;
   margin-bottom: 8px;
 }
 /* line 31, ../sass/screen.sass */
-body table #wrapper article h2 {
+body table #wrapper h2 {
   font-size: 30px;
   color: #d0d0c8;
   margin: 50px 0;
 }
 /* line 36, ../sass/screen.sass */
-body table #wrapper article p {
+body table #wrapper p {
   font-size: 16px;
 }
 /* line 39, ../sass/screen.sass */
-body table #wrapper article a {
+body table #wrapper a {
   font-size: 18px;
   text-transform: uppercase;
   text-decoration: none;
@@ -116,6 +116,6 @@ body table #wrapper article a {
   padding-bottom: 0px;
 }
 /* line 46, ../sass/screen.sass */
-body table #wrapper article a:hover {
+body table #wrapper a:hover {
   border-bottom: none;
 }
