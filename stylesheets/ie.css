@@ -64,55 +64,58 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 3, ../sass/ie.sass */
-body #wrapper {
-  width: 910px;
-  margin: -272px auto 0px auto;
-  height: 543px;
-  position: relative;
-  top: 50%;
+body table {
+  width: 100%;
+  height: 100%;
 }
-/* line 10, ../sass/ie.sass */
-body #wrapper img {
+/* line 7, ../sass/ie.sass */
+body table #wrapper {
+  width: 910px;
+  margin: auto;
+  height: 543px;
+}
+/* line 12, ../sass/ie.sass */
+body table #wrapper img {
   width: 363px;
   float: left;
 }
-/* line 14, ../sass/ie.sass */
-body #wrapper article {
+/* line 16, ../sass/ie.sass */
+body table #wrapper article {
   margin-top: 160px;
   width: 547px;
   height: 400px;
   float: left;
   text-align: center;
 }
-/* line 21, ../sass/ie.sass */
-body #wrapper article h1, body #wrapper article h2, body #wrapper article p, body #wrapper article a {
+/* line 23, ../sass/ie.sass */
+body table #wrapper h1, body table #wrapper h2, body table #wrapper p, body table #wrapper a {
   font-family: "Courier New", Courier, monospace;
   color: #31312d;
 }
-/* line 25, ../sass/ie.sass */
-body #wrapper article h1 {
+/* line 27, ../sass/ie.sass */
+body table #wrapper h1 {
   font-size: 35px;
   margin-bottom: 8px;
 }
-/* line 29, ../sass/ie.sass */
-body #wrapper article h2 {
+/* line 31, ../sass/ie.sass */
+body table #wrapper h2 {
   font-size: 30px;
   color: #d0d0c8;
   margin: 50px 0;
 }
-/* line 34, ../sass/ie.sass */
-body #wrapper article p {
+/* line 36, ../sass/ie.sass */
+body table #wrapper p {
   font-size: 16px;
 }
-/* line 37, ../sass/ie.sass */
-body #wrapper article a {
+/* line 39, ../sass/ie.sass */
+body table #wrapper a {
   font-size: 18px;
   text-transform: uppercase;
   text-decoration: none;
   border-bottom: #31312d solid 1px;
   padding-bottom: 0px;
 }
-/* line 44, ../sass/ie.sass */
-body #wrapper article a:hover {
+/* line 46, ../sass/ie.sass */
+body table #wrapper a:hover {
   border-bottom: none;
 }
